@@ -1,9 +1,9 @@
-package com.pjm.lightmvc.service.impl;
+package com.pjm.lightmvc.service.sys.impl;
 
 import com.pjm.lightmvc.contants.UserStatus;
-import com.pjm.lightmvc.dao.biz.UserDao;
+import com.pjm.lightmvc.dao.sys.UserDao;
 import com.pjm.lightmvc.model.sys.TUser;
-import com.pjm.lightmvc.service.UserService;
+import com.pjm.lightmvc.service.sys.UserService;
 import com.pjm.lightmvc.contants.ControllerMsg;
 import com.pjm.lightmvc.util.MD5Util;
 import com.pjm.lightmvc.vo.sys.UserVo;

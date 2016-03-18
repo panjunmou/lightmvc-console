@@ -1,4 +1,4 @@
-package com.pjm.lightmvc.dao.biz;
+package com.pjm.lightmvc.dao.sys;
 
 import com.pjm.lightmvc.dao.BaseDao;
 import com.pjm.lightmvc.model.sys.TUser;

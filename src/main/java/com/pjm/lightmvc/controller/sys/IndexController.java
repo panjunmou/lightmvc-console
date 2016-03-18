@@ -1,7 +1,7 @@
-package com.pjm.lightmvc.controller;
+package com.pjm.lightmvc.controller.sys;
 
 import com.pjm.lightmvc.contants.GlobalContants;
-import com.pjm.lightmvc.service.UserService;
+import com.pjm.lightmvc.service.sys.UserService;
 import com.pjm.lightmvc.vo.base.JsonVo;
 import com.pjm.lightmvc.vo.base.SessionInfo;
 import com.pjm.lightmvc.vo.sys.UserVo;

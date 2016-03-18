@@ -1,4 +1,4 @@
-package com.pjm.lightmvc.service;
+package com.pjm.lightmvc.service.sys;
 
 import com.pjm.lightmvc.vo.sys.UserVo;
 
