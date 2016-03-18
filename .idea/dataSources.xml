@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="162595114">
+  <component name="DataSourceManagerImpl" format="xml" hash="959684715">
     <data-source source="LOCAL" name="MySQL - lightmvc@localhost" uuid="47c08c46-d2ab-4e3e-89fb-cceba9ac11a3">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
