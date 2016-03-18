@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - lightmvc@localhost" uuid="47c08c46-d2ab-4e3e-89fb-cceba9ac11a3">
+    <database-info product="MySQL" version="5.5.29" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="lightmvc"/>
+      <table id="2" parent="1" name="sys_user"/>
+      <column id="3" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="4" parent="2" name="AGE">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="LOGINNAME">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="6" parent="2" name="PASSWORD">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="7" parent="2" name="PHONE">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="8" parent="2" name="SEX">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="9" parent="2" name="USERNAME">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="10" parent="2" name="CREATE_DATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="11" parent="2" name="CREATE_USER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="12" parent="2" name="UPDATE_DATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="13" parent="2" name="UPDATE_USER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="14" parent="2" name="STATUS">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="15" parent="2" name="UK_f6rjo145aukfhtvouw1kc0ho0">
+        <columns>PHONE</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="16" parent="2" name="UK_lwbjeq173hjwoyt6uof399hs5">
+        <columns>LOGINNAME</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="17" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="18" parent="2" name="UK_f6rjo145aukfhtvouw1kc0ho0">
+        <columns>PHONE</columns>
+        <underlying-index>UK_f6rjo145aukfhtvouw1kc0ho0</underlying-index>
+      </key>
+      <key id="19" parent="2" name="UK_lwbjeq173hjwoyt6uof399hs5">
+        <columns>LOGINNAME</columns>
+        <underlying-index>UK_lwbjeq173hjwoyt6uof399hs5</underlying-index>
+      </key>
+    </database-model>
+  </data-source>
+</component>
