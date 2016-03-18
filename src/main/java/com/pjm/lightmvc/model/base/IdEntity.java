@@ -1,6 +1,7 @@
 package com.pjm.lightmvc.model.base;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -9,10 +10,13 @@ import java.util.Date;
  * @MappedSuperclass 用在父类上面。
  * 当这个类肯定是父类时，加此标注。
  * 如果改成@Entity，则继承后，多个类继承，只会生成一个表，而不是多个继承，生成多个表
+ * 且子类可以不需要再实现Serializable,但是父类必须实现Serializable接口
  * 统一定义entity基类.
  */
 @MappedSuperclass
-public abstract class IdEntity {
+public abstract class IdEntity implements Serializable{
+
+    private static final long serialVersionUID = -2806504249722759638L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
